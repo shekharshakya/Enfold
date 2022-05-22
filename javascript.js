@@ -1,10 +1,11 @@
-// window.onload = function() {
-//     setInterval(() => {
-//         document.querySelector(".preloader").style.opacity = "0";
-//     }, 3000)
-// }
+window.onload = function() {
+    setInterval(() => {
+        document.querySelector(".preloader").style.opacity = "0";
+    }, 3000)
+}
 
 function openNav() {
+    console.log("heloo")
     document.getElementById("myNav").style.width = "100%";
     document.getElementById("myNav").style.opacity = "1";
 }
@@ -51,15 +52,15 @@ $(document).ready(function() {
         }
     });
 
-    // $('.responsive').slick({
-    //     dots: false,
-    //     infinite: true,
-    //     speed: 200,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1,
-    //     arrows: false,
-    //     autoplay: true
-    // });
+    $('.responsive').slick({
+        dots: false,
+        infinite: true,
+        speed: 200,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true
+    });
 
     $('.counter').counterUp({
         delay: 10,
