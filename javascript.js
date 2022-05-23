@@ -1,6 +1,7 @@
 window.onload = function() {
     setInterval(() => {
         document.querySelector(".preloader").style.opacity = "0";
+        document.querySelector(".preloader").style.display = "none"
     }, 3000)
 }
 
