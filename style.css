@@ -215,7 +215,8 @@ footer,
     background-size: cover;
     object-fit: cover;
     height: 85vh;
-    padding-top: 80px;
+    display: flex;
+    align-items: center;
     width: 100%;
 }
 
